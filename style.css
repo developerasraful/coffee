@@ -1,0 +1,527 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-with{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    background: #ab6ac7;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    
+    
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+img{
+    max-width: 100%;  
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.header-left img{
+    height: auto;
+    width: 150px;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 30px;
+    line-height: 60px;
+    border-right: solid 1px rgb(255, 255, 255);
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background-color:#773492 ;
+}
+
+
+.banner{
+    background: url(https://i.pinimg.com/originals/18/66/06/18660631f18bd2a4205c4dc0bd84501c.jpg ) ;
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+
+}
+ 
+.banner-captin h1{
+    color:white;
+    font-size: 50px;
+    
+}
+.banner-captin h2{
+    color:white;
+    font-size: 70px;
+
+}
+.about{
+    text-align: center;
+    background:  #bdc3c7;
+    padding: 80px;
+    background: url(https://thumbs.dreamstime.com/b/work-woman-working-coffee-shop-beautiful-girl-casual-clothes-thinking-job-going-to-write-planner-book-digital-188394063.jpg );
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about h2{
+    font-size: 40px;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 23px;
+}
+
+
+
+/* .about:hover{
+    background:#cdd0df ;
+} */
+
+
+.service{
+    padding: 80px;
+    background:#c8d6e5 ;
+
+}
+
+.srevice-item{  
+    float: left;
+    width: 31%;
+    text-align: center;
+    border: 1px solid #636e72;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    color:black ;
+    background:#bdc3c7 ;
+    border-radius: 1%;
+    transition: .5s;
+}
+.srevice-item:hover{
+    background: url(https://cdn5.vectorstock.com/i/1000x1000/43/69/logo-for-coffee-shop-vector-20164369.jpg);
+    border-radius: 1%;
+    
+    color:white ;
+    border: 1px solid red;
+    text-align: center;
+    background-position:center;
+    background-size: cover;
+    
+    
+}
+.srevice-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color:#631696 ;
+    margin: auto;
+    font-size: 50px;
+    line-height: 60px;
+    
+}
+.srevice-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.coffee{
+    padding: 80px;
+    background: #cbd9ec ;
+    transition: .5s;
+}
+.coffee-item{
+    width: 31.3%;
+    float: left;
+    text-align: center;
+    padding: 20px 10px;   
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+}
+.coffee-item img:hover{
+    transform: skew(5deg);
+    transition: .5s;
+}
+.coffee-item:hover{
+    background: white;
+}
+
+.coffee:hover{
+   background: #b1b2b3 ;
+}
+.coffee-item h2{
+    margin-top: 7px;
+    text-transform: capitalize;
+}
+.coffee-item h3{
+    cursor: pointer;
+}
+.coffee-item h3:hover{
+    color: red;
+}
+.hard{
+    padding: 80px;
+    background:#cbd9ec ;
+    transition: .5s;
+}
+.hard:hover{
+    background:#b1b2b3 ;
+}
+.end-coffee{
+    width: 31.3%;
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+}
+.end-coffee:hover{
+    background: white;
+}
+.end-coffee img{
+    max-width: 100%;
+    height: 230px;
+    width: 360px; 
+    text-align: center; 
+    transition: .5s;
+}
+.end-coffee img:hover{
+    transform: skew(4deg);
+}
+.end-coffee h3{
+    
+    cursor: pointer;
+}
+.end-coffee h3:hover{
+    color: red;
+}
+.end-coffee h2{
+    text-transform: capitalize;
+}
+.bal{ 
+    padding: 80px;
+    background:#cbd9ec ;
+    transition: .5s;
+}
+.bal-coffee{
+    width: 31.3%;
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+}
+.bal-coffee img{
+    max-width: 100%;
+    height: 230px;
+    width: 360px; 
+    text-align: center; 
+    transition: .5s;
+}
+.bal-coffee img:hover{
+    transform: skew(4deg);
+}
+.bal-coffee h2{
+    text-transform: capitalize;
+}
+.bal-coffee h3:hover{
+    color: red;
+}
+.bal-coffee:hover{
+    background: rgb(255, 255, 255) ;
+}
+.bal:hover{
+    background:#b1b2b3 ;
+}
+.div1{
+    
+    text-align: center;
+    background: #d9e6f8;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    transition: .5s;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 25px;
+}
+
+.div1:hover{
+    background:#b1b2b3  ;
+}
+.in{
+    padding: 80px;
+    background:#cbd9ec ;
+    transition: .5s;
+}
+.in-coffee{
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+}
+.in-coffee img{
+    max-width: 100%;
+    height: 230px;
+    width: 360px; 
+    text-align: center; 
+    transition: .5s;
+}
+.in-coffee img:hover{
+    transform: skew(4deg);
+}
+.in-coffee h2{
+    text-transform: capitalize;
+}
+.in-coffee h3:hover{
+    color: red;
+}
+.in-coffee:hover{
+    background: rgb(255, 255, 255) ;
+}
+.in:hover{
+    background:#b1b2b3 ;
+}
+.notish{
+   
+   background: url(https://hips.hearstapps.com/bpc.h-cdn.co/assets/17/39/1506546441-best-coffee-shops.jpg );
+   text-align: center;
+   padding: 120px 0;
+   background-position:top center ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.notish-part h1{
+    color: rgb(249, 249, 252);
+    text-transform: capitalize;
+    font-size: 50px;
+    font-style: italic;
+    transition: .5s;
+}
+.notish-part h1:hover{
+    color: rgb(247, 11, 11);
+    background: white;
+    border: 1px solid red;
+}
+
+.notish-part h2{
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-style: italic;
+    transition: .5s;
+}
+.notish-part h2:hover{
+    color: red;
+    background-color: rgb(249, 249, 252);
+    border: 2px solid red;
+}
+.shop-oner{
+    padding: 80px;
+    background:#8f949b ;
+    transition: .5s;
+}
+.mr{
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid rgb(255, 255, 255);
+}
+.mr img{
+    max-width: 100%;
+    height: 230px;
+    width: 360px; 
+    text-align: center; 
+    transition: .5s;
+    
+}
+.mr:hover{
+    background: rgb(255, 255, 255);
+}
+.mr img:hover{
+    transform: skew(5deg);
+}
+.div2{
+    padding: 80px;
+    text-align: center;
+    background-color:#cbd9ec ;
+    text-transform: capitalize;
+    font-size: 30px;
+    transition: .5s;
+}
+.div2 h1{
+    transition: .5s;
+}
+.div2:hover{
+    background:#dadada ;
+}
+.div2 h1:hover{
+    color: red;
+}
+.div2 h2{
+    transition: .5s;
+}
+.div2 h2:hover{
+    color: red;
+    text-shadow: red 2px 3px;
+}
+.img-box{
+    background: gray;
+    padding: 50px;
+    transition: .5s;
+}
+.img-box:hover{
+    background:#dae2ee ;
+}
+.contruct{
+    float: left;
+    width: 31.3%;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow:10px 10px 10px 20px white;
+}
+.contruct:hover{
+    background:#a7a8aa ;
+    color: white;
+}
+.socal{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: grey;
+
+}
+.sm a{
+    display: inline-block;
+    font-size: 40px;
+    
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: rgb(5, 255, 80);
+    margin: 0 16px;
+    transition: .5s linear;
+    position: relative;
+}
+.sm a::before, .sm a::after{
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    transition: .4s linear;
+    top: 0;
+    left: 0;
+}
+
+.sm a:hover{
+    transform: scale(.8);
+    box-shadow: 10px 10px 10px 0 rgb(72, 226, 72);
+}
+.sm a:hover::before{
+    border-left: 4px solid ;
+    border-right: 4px solid;
+    transform: skew(20deg);
+
+}
+.sm a:hover::after{
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    transform: skewY(-20deg);
+}
+    
+
+
+.futtr{
+    background:#dae2ee ;
+    padding: 15px;
+    transition: .5s;
+}
+.futtr:hover{
+    background:#a7a8aa ;
+}
+.div4 h2{
+    color: rgb(65, 13, 253);
+    margin-bottom: 20px;
+    background:#dae2ee;
+    text-shadow: 2px 2px 2px rgb(216, 151, 151);
+    height: 40px;
+    font-size: 30px;
+    display: inline-block;
+    box-shadow:10px 10px 10px 0 black ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+
